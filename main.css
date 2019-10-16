@@ -1,29 +1,35 @@
 html { 
-    background: url('bg.jpeg') no-repeat center center fixed; 
+    background: url('michael-podger-_LWeQdhVSFU-unsplash.jpg') no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Bangers', cursive;
     text-align: center;
-    font-size: 14px;
+    font-size: 20px;
   }
 
   h1 {
       font: size 50px;
-      color: hsl(231, 88%, 37%); 
+      color: rgb(135, 161, 20); 
       margin-bottom:0 ;
       font-weight: normal;
   }
 
   h2 {
       font-size: 18px;
-      color: hsl(78, 88%, 37%) ;
+      color:rgb(135, 161, 20);
       margin-top:0 ;
   }
 
+  h3{
+      font-size: 20px;
+      color: rgb(135, 161, 20);
+      margin-top: 0;
+  }
+
   p {
-      color:hsl(78, 88%, 37%);
+      color:rgb(135, 161, 20);
   }
 
 
@@ -31,7 +37,7 @@ html {
       height: 150px;
     border-radius: 100%;
     border-style: solid;
-    border-color:hsl(78, 88%, 37%) ;
+    border-color:rgb(69, 20, 161);
   }
 
 
@@ -41,5 +47,14 @@ html {
       margin-left: auto;
       margin-right: auto;
       border: 40px;
+      margin-top: 50px;
 
   }
+
+.grey{
+    height: 3px;
+    background-color: rgb(69, 20, 161);
+    border: none;
+    width: 50px;
+}
+
