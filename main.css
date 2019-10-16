@@ -4,18 +4,42 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 14px;
   }
 
   h1 {
       font: size 50px;
-      color: #af0505; 
+      color: hsl(231, 88%, 37%); 
+      margin-bottom:0 ;
+      font-weight: normal;
   }
 
   h2 {
       font-size: 18px;
-      color: #af0505;
+      color: hsl(78, 88%, 37%) ;
+      margin-top:0 ;
   }
 
   p {
-      color:#af0505;
+      color:hsl(78, 88%, 37%);
+  }
+
+
+  .me {
+      height: 150px;
+    border-radius: 100%;
+    border-style: solid;
+    border-color:hsl(78, 88%, 37%) ;
+  }
+
+
+
+  #wrapper {
+      width: 400px;
+      margin-left: auto;
+      margin-right: auto;
+      border: 40px;
+
   }
